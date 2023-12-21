@@ -6,6 +6,7 @@ import { topCategoriesData } from "../assets/mokdata/mokdata";
 
 export default function TopCategories() {
   const [data, setData] = useState([]);
+
   useEffect(() => {
     setData(topCategoriesData);
   }, []);
@@ -34,7 +35,6 @@ export default function TopCategories() {
 
   const CustomDot = ({ onClick, ...rest }) => {
     const { index, active } = rest;
-    // Customize the rectangular button based on index and active state
     return (
       <button
         className={`custom-rectangle-button ${active ? "active" : "inactive"}`}
