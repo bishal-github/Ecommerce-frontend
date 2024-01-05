@@ -1,6 +1,7 @@
 import React from "react";
 import logoImage from "../assets/images/logo.png";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import { BiLogoInstagramAlt } from "react-icons/bi";
 
 export default function FooterComponent() {
   return (
@@ -83,7 +84,7 @@ export default function FooterComponent() {
           </li>
           <li>
             <p className="w-[20px] h-[20px] rounded-full bg-[#151875] flex items-center justify-center p-[4px]">
-              <FaInstagram size={10} className="text-[#FFFFFF]" />
+              <BiLogoInstagramAlt size={10} className="text-[#FFFFFF]" />
             </p>
           </li>
           <li>

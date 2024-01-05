@@ -1,7 +1,5 @@
 import React from "react";
-import NavFirst from "../components/nav.first";
-import NavSecond from "../components/nav.second";
-import Carousel from "../components/carousel";
+
 import FeaturedProducts from "../components/featured.product";
 import LatestProduct from "../components/latest.product";
 import Shopex from "../components/shopex.component";
@@ -14,12 +12,10 @@ import LatestUpdate from "../components/latest.update";
 import LogoComponent from "../components/logos.component";
 import LatestBlogComponent from "../components/latest.blog.component";
 import CarouselComponent from "../components/carousel";
-import { Outlet } from "react-router-dom";
 
 export default function HomePage() {
   return (
     <div className="w-full">
-      <Outlet />
       <CarouselComponent />
       <FeaturedProducts />
       <LatestProduct />
@@ -32,7 +28,6 @@ export default function HomePage() {
       <LatestUpdate />
       <LogoComponent />
       <LatestBlogComponent />
-      <Outlet />
     </div>
   );
 }

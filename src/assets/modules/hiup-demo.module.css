@@ -1,0 +1,449 @@
+.pageMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv {
+  width: 100%;
+  background: #f6f5ff;
+  height: 285px;
+}
+
+.insideMain {
+  max-width: 1177px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .insideMain {
+    padding-left: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insideMain {
+    padding-left: 0px;
+    justify-content: center;
+  }
+}
+
+.title {
+  color: #101750;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mainDivSecond {
+  display: flex;
+  max-width: 1177px;
+  height: auto;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .mainDivSecond {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+.insideMainDivSecond {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .insideMainDivSecond {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.titleSecond {
+  color: #1d3178;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 74px;
+}
+
+.slug {
+  color: #1d3178;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 0 25px 0;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 326px;
+}
+
+@media (max-width: 768px) {
+  .formDiv {
+    flex-direction: column;
+    padding: 0 5px;
+  }
+}
+
+.form {
+  max-width: 770px;
+  width: 100%;
+  border-radius: 3px;
+  background: #f8f8fd;
+  padding: 69px 35px 65px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formTitle {
+  color: #1d3178;
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formInfo {
+  color: #c1c8e1;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+@media (max-width: 475px) {
+  .formInfo {
+    flex-direction: column;
+  }
+}
+
+.formSecondLine {
+  border-bottom: 2px solid #bfc6e0;
+  background: transparent;
+  padding-bottom: 13px;
+  width: 100%;
+  margin: 42px 0 32px 0;
+}
+
+.formSecondLine1 {
+  border-bottom: 2px solid #bfc6e0;
+  background: transparent;
+  padding-bottom: 13px;
+  width: 100%;
+  margin: 42px 0 32px 0;
+}
+
+@media (max-width: 440px) {
+  .formSecondLine {
+    margin: 21px 0 16px 0;
+  }
+
+  .formSecondLine1 {
+    margin: 21px 0 32px 0;
+  }
+}
+
+.formInputLine {
+  border-bottom: 2px solid #bfc6e0;
+  background: transparent;
+  padding-bottom: 13px;
+  width: 100%;
+  margin-bottom: 41px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.formThirdLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="checkbox"] {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #bfc6e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="checkbox"]:after {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  font-size: 7.1px;
+  color: white;
+  display: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #19d16f;
+  border: none;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
+.insideFormThird {
+  color: #8a91ab;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+
+.formFourthLine {
+  color: #1d3178;
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 109px 0 43px 0;
+}
+
+.formFifthLine {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 440px) {
+  .formFifthLine {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+.formButton {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  background: #fb2e86;
+  padding: 14px 22px;
+  border-radius: 2px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 182px;
+  max-height: 44px;
+  cursor: pointer;
+  margin-top: 56px;
+}
+
+.login {
+  cursor: pointer;
+}
+
+.sidebar {
+  max-width: 371px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin: 0 auto;
+  }
+}
+
+.sidebarFirstDiv {
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e4;
+  padding-bottom: 15px;
+}
+
+.insideCard {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.prodName {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6px 0;
+}
+
+.prodColor {
+  color: #a1a8c1;
+  font-family: Josefin Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prodSize {
+  color: #a1a8c1;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+
+.span1 {
+  font-size: 14px;
+}
+
+.prodPrice {
+  color: #15245e;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cardImgDiv {
+  max-width: 83px;
+  max-height: 87px;
+  border-radius: 3px;
+}
+
+.imgCard {
+  width: 100%;
+  height: auto;
+}
+
+.secondCardDiv {
+  width: 100%;
+  margin-top: 42px;
+}
+
+.cardSecond {
+  border-radius: 3px;
+  background: #f4f4fc;
+  display: flex;
+  flex-direction: column;
+  padding: 34px 31px 32px 23px;
+}
+
+.cardRow1 {
+  color: #1d3178;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #e8e6f1;
+  padding-bottom: 13px;
+  margin-bottom: 34px;
+}
+.cardRow2 {
+  color: #1d3178;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #e8e6f1;
+  padding-bottom: 13px;
+  margin-bottom: 27px;
+  padding-left: 6px;
+}
+
+.withCheckbox {
+  color: #8a91ab;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 35px;
+  padding-left: 6px;
+}
+
+.cardSecondButton {
+  border-radius: 3px;
+  background: #19d16f;
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 11px 0 12px 0;
+  text-align: center;
+  padding-left: 6px;
+}

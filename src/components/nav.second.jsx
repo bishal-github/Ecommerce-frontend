@@ -9,10 +9,6 @@ export default function NavSecond() {
   const [nav, setNav] = useState(false);
   const [active, setActive] = useState(false);
 
-  // const handleActiveClick = () => {
-  //   setActive(!active);
-  // };
-
   const handleActiveClick = (paragraph) => {
     setActive(paragraph === active ? false : paragraph);
   };
@@ -96,6 +92,22 @@ export default function NavSecond() {
               >
                 Shop
                 {active === "shop" && (
+                  <p className="block">
+                    <GoChevronDown color="#FB2E86" />
+                  </p>
+                )}
+              </p>
+            </NavLink>
+
+            <NavLink to="/hiup-demo">
+              <p
+                className={`cursor-pointer flex flex-row gap-1 group items-center ${
+                  active === "hiup-demo" ? "text-[#FB2E86]" : "text-[#0D0E43]"
+                }`}
+                onClick={() => handleActiveClick("hiup-demo")}
+              >
+                HiUp Demo
+                {active === "hiup-demo" && (
                   <p className="block">
                     <GoChevronDown color="#FB2E86" />
                   </p>

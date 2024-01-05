@@ -23,6 +23,25 @@ import ch22Img from "../images/ch22.png";
 import ch23Img from "../images/ch23.png";
 import ch24Img from "../images/ch24.png";
 import ch25Img from "../images/ch25.png";
+import ch26Img from "../images/blog-1.png";
+import ch27Img from "../images/blog-2.png";
+import ch28Img from "../images/blog-3.png";
+import ch29Img from "../images/recent1.png";
+import ch30Img from "../images/recent2.png";
+import ch31Img from "../images/recent3.png";
+import ch32Img from "../images/recent4.png";
+import ch33Img from "../images/recent5.png";
+import ch34Img from "../images/recent6.png";
+import ch35Img from "../images/recent7.png";
+import ch36Img from "../images/offer1.png";
+import ch37Img from "../images/offer2.png";
+import ch38Img from "../images/offer3.png";
+import ch39Img from "../images/offer4.png";
+import ch40Img from "../images/d1.png";
+import ch41Img from "../images/d2.png";
+import ch42Img from "../images/d3.png";
+import ch43Img from "../images/d4.png";
+import ch44Img from "../images/d5.png";
 
 export const featuredProductsData = [
   {
@@ -340,5 +359,157 @@ export const specialOfferData = [
     name: "Comfort Handy Craft",
     latestPrice: "$42.00",
     previousPrice: "$65.00",
+  },
+];
+
+export const BlogData = [
+  {
+    id: "111",
+    image: ch26Img,
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    name: "KP Chaudhary",
+    date: "Aug 09 2023",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+  },
+  {
+    id: "222",
+    image: ch27Img,
+    title: "Aenean vitae in aliquam ultrices lectus. Etiam.",
+    name: "KP Chaudhary",
+    date: "Aug 09 2023",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+  },
+  {
+    id: "334",
+    image: ch28Img,
+    title: "Sit nam congue feugiat nisl, mauris amet nisi. ",
+    name: "KP Chaudhary",
+    date: "Aug 09 2023",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+  },
+];
+
+export const recentPostData = [
+  {
+    id: "112",
+    image: ch29Img,
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    date: "Aug 09 2023",
+  },
+
+  {
+    id: "1312",
+    image: ch30Img,
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    date: "Aug 09 2023",
+  },
+
+  {
+    id: "11532",
+    image: ch31Img,
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    date: "Aug 09 2023",
+  },
+
+  {
+    id: "11323",
+    image: ch32Img,
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    date: "Aug 09 2023",
+  },
+];
+
+export const saleProductData = [
+  {
+    id: "11222",
+    image: ch33Img,
+    title: "Elit ornare in enim mauris.",
+    date: "Aug 09 2023",
+  },
+
+  {
+    id: "131232",
+    image: ch34Img,
+    title: "Viverra pulvinar et enim.",
+    date: "Aug 09 2023",
+  },
+
+  {
+    id: "1156632",
+    image: ch35Img,
+    title: "Mattis varius donec fdsfd",
+    date: "Aug 09 2023",
+  },
+];
+
+export const offertData = [
+  {
+    id: "112222",
+    image: ch36Img,
+    title: "Duis lectus est.",
+    pr: "$12.00 - $15.00",
+  },
+
+  {
+    id: "1314232",
+    image: ch37Img,
+    title: "Sed placerat.",
+    pr: "$12.00 - $15.00",
+  },
+
+  {
+    id: "11566532",
+    image: ch38Img,
+    title: "Netus proin.",
+    pr: "$12.00 - $15.00",
+  },
+  {
+    id: "115616532",
+    image: ch39Img,
+    title: "Platea in.",
+    pr: "$12.00 - $15.00",
+  },
+];
+
+export const demoData = [
+  {
+    id: 13213,
+    image: ch40Img,
+    name: "Ut diam consequat",
+    color: "Brown",
+    size: "XL",
+    price: "$32.00",
+  },
+  {
+    id: 13213,
+    image: ch41Img,
+    name: "Ut diam consequat",
+    color: "Brown",
+    size: "XL",
+    price: "$32.00",
+  },
+  {
+    id: 13213,
+    image: ch42Img,
+    name: "Ut diam consequat",
+    color: "Brown",
+    size: "XL",
+    price: "$32.00",
+  },
+  {
+    id: 13213,
+    image: ch43Img,
+    name: "Ut diam consequat",
+    color: "Brown",
+    size: "XL",
+    price: "$32.00",
+  },
+  {
+    id: 13213,
+    image: ch44Img,
+    name: "Ut diam consequat",
+    color: "Brown",
+    size: "XL",
+    price: "$32.00",
   },
 ];

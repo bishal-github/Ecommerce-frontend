@@ -13,7 +13,7 @@ export default function Shopex() {
         What Shopex Offer!
       </h1>
       <div>
-        <div className="flex flex-row max-w-[1177px] w-full border-2 border-black-2 mx-auto justify-evenly lg:justify-between flex-wrap gap-[35px] lg:gap-[15px]">
+        <div className="flex flex-row max-w-[1177px] w-full  mx-auto justify-evenly lg:justify-between flex-wrap gap-[35px] lg:gap-[15px]">
           {data &&
             data.map((item, index) => <ShopexCard key={index} data={item} />)}
         </div>

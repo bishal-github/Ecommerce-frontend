@@ -1,5 +1,4 @@
 import React from "react";
-import decorImg from "../../assets/images/room.png";
 import { BsVectorPen } from "react-icons/bs";
 import { LuCalendarDays } from "react-icons/lu";
 
